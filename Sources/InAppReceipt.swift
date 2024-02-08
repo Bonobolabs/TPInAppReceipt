@@ -151,6 +151,11 @@ public extension InAppReceipt
 		return payload.ageRating
 	}
 	
+    var environment: String
+    {
+        return payload.environment
+    }
+    
     /// In App Receipt in base64
     var base64: String
     {
